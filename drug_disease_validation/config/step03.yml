@@ -1,0 +1,5 @@
+step03:
+  max_size_pathway: 50
+  min_size_pathway: 5
+  max_try_search: 3
+  reactome_api_rate_limit_per_sec: 10

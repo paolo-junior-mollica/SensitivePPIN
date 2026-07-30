@@ -1,0 +1,13 @@
+step04:
+  include_bridge_nodes_for_extended: true
+  save_subgraphs: true
+  subgraphs_dirname: subgraphs
+  enable_cache: true
+  min_subgraph_nodes: 5
+  max_subgraph_nodes: 50
+  bridge_max_intermediate_nodes: 2
+  use_embeddings: true
+  embedding_source: local_file
+  embedding_file: drug_disease_validation/data/raw/per-protein.h5
+  missing_embedding_policy: zeros
+  log_missing_embeddings: true
