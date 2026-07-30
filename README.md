@@ -1,6 +1,6 @@
-# Digital Health Lab Sensitive PPIN
+# Sensitive PPIN
 
-This repository contains a reproducible research pipeline for building drug-disease validation data and running sensitivity prediction on protein-protein interaction networks (PPINs) with Deep Graph Networks (DGN).
+This repository contains a reproducible pipeline for building drug-disease validation data and running sensitivity prediction on protein-protein interaction networks (PPINs) with Deep Graph Networks (DGN).
 
 The project combines biomedical data integration scripts, PPIN subgraph construction, and an adapted DGN inference module for sensitivity analysis on protein-protein interaction networks.
 
